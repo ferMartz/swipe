@@ -13,8 +13,7 @@ class Ball extends React.Component {
         return (
             <Animated.View style={this.position.getLayout()}>
                 <View style={styles.ball} />
-            </Animated.View> 
-            
+            </Animated.View>             
         )
     }
 }
