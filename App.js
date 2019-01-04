@@ -20,6 +20,7 @@ export default class App extends Component {
       <Card
       title={item.text}
       image={{uri: item.uri}}
+      key={item.id}
       >
         <Text style={{marginBottom: 10}}>
           I can customize the card further
